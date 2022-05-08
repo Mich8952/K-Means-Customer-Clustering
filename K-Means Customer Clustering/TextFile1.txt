@@ -1,0 +1,101 @@
+Sample output recommendations (recommendations are at the bottom)
+
+Data contained family-income, residency-type and age factors. Optionally, users were able to enter specific comments which helped provide context to each cluster.
+
+The model output clusters were:
+CLUSTER 1
+3     "With busy schedules its just easier to take clippings from a home grown device and make a salad rather than going to the grocery store and having to buy them"
+9                                                                                                                                                                 NaN
+11                                                                                                                                                                NaN
+12                                                                                                                                                                NaN
+13                                                                                                                                                                NaN
+15                                                                                                                                                                NaN
+16                                                                                                                                                                NaN
+17                                   "Quick and convienent with little maintenance needed. This is great when were always busy with kids, their sports, and our work"
+Name: reason, dtype: object
+    family-income residency-type  age
+3           89469          Rural   47
+9           92807          Rural   60
+11         107416          Urban   29
+12          92595          Urban   44
+13          93088          Urban   43
+15          98288          Urban   39
+16         104518       SubUrban   28
+17         102203          Urban   36
+CLUSTER 2
+19    "Foods from grocery-marts are filled with pesticides and other unwanted/unknown materials. When I grow my plants this way, its doesn’t have any pesticies and I know exactly what I am getting"
+20                                                                                                                                                                                                NaN
+24                                                                                                                                                                                                NaN
+26                                                                                                                                                                                                NaN
+27                                                                                                                                                                                                NaN
+Name: reason, dtype: object
+    family-income residency-type  age
+19         196674       SubUrban   45
+20         194804       SubUrban   50
+24         194298          Urban   49
+26         182989          Urban   50
+27         189760          Urban   56
+CLUSTER 3
+0    "It is cheaper for us to buy a self-sustaining unit instead of driving far to purchase greens"
+1                                                                                               NaN
+2                                                                                     "Saves money"
+4                                                                                               NaN
+5                                                                                               NaN
+6                                                                                               NaN
+7                                                                                               NaN
+8                                                                                               NaN
+Name: reason, dtype: object
+   family-income residency-type  age
+0          72028          Rural   60
+1          61584          Rural   65
+2          63521          Rural   51
+4          66394          Rural   62
+5          68179          Rural   63
+6          73107          Rural   55
+7          67776          Rural   68
+8          64058       SubUrban   50
+CLUSTER 4
+21    "seemed like a cool device that I bought just to try out
+25                                                         NaN
+28                                                         NaN
+Name: reason, dtype: object
+    family-income residency-type  age
+21         163366       SubUrban   47
+25         156266          Urban   49
+28         166370          Urban   44
+CLUSTER 5
+10                                                                                                                                                                                NaN
+14                                                                                                                                                                                NaN
+18                                                                                                                                                                                NaN
+22                                                                                                                                                                                NaN
+23    "I always wanted to grow greens but I rarely had the garden space, this indoor unit is perfect for my needs as I can grow my greens inside in a climate controlled environment"
+Name: reason, dtype: object
+    family-income residency-type  age
+10         117371          Urban   35
+14         114965       SubUrban   39
+18         117313          Urban   40
+22         124965          Urban   52
+23         139629          Urban   48
+
+
+
+Reccs as follows:
+Cluster 1:
+Convienence. The product should be advertised as a convinent way to grow greens in which you will no longer have to go to the grocery store to aquire them. 
+
+Cluster 2:
+Health. The product advetisement should focus on the product and its relation to good health. I.e. not having pesticides and being 100% organic. Individuals who buy this unit will grow food that they know 100% of what was put into it. There are no surprises
+
+Cluster 3:
+Financial: Advertise the product as being financially beneficial in the long run. These individualls are slighly lower income so "sav[ing] money" should be the major focus.
+
+Cluster 4:
+Gadget: Advertise as some sort of cool device that would impress your friends. There seems to be less people in this cluster (from the sample) so allocate less time to developing this. Demonstrate the cool led lighting and mechanical motor whirls. Ensure that this advertisement uses dark colors and spotlight-like lighting.
+
+Cluster 5:
+Time efficiency: Advertise from a time perspective. Showcase busy individuals who keep forgetting certain aspects such as "buying groceries" and have children yelling "Im hungry". This will demonstrate to viewers that the device will help with efficiency, especially to those who have busy schedules.
+
+With this, you can focus certain targeted ads towards users of specified ages, incomes, and residency types such that it will help to increase engagement and revenues.
+
+
+*Note this is 100% of the full code, this was a sample of what I developed for a coorporation. Some aspects were left out due to confidentiality agreements. This serves as an sample of what was done. 
