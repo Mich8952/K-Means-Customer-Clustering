@@ -35,6 +35,10 @@ z = df["residency-typeNum"]
 fig = plt.figure(figsize=(6,6))
 ax = fig.add_subplot(111, projection='3d')
 ax.scatter(x,y,z)
+ax.set_xlabel("Family Income")
+ax.set_ylabel("Age")
+ax.set_zlabel("Residency Type")
+plt.title("Visualization of Data")
 plt.show() 
 
 
@@ -62,6 +66,7 @@ for k in range(1,11):
 plt.plot(k_val,wcss)
 plt.xlabel("k")
 plt.ylabel("wcss")
+plt.title("wcss vs k")
 plt.show()
 
 #elbow at k=2, visually though it seems that we might have more than two. Do a better silhouette score next
@@ -79,6 +84,7 @@ for k in range(2,11):
 plt.plot(k_val,silhouette)
 plt.xlabel("k")
 plt.ylabel("silhouette")
+plt.title("silhouette score vs k")
 plt.show()
 
 #represents k=5 as the best
@@ -99,9 +105,6 @@ cluster5 = df[df.k==4]
 #display clusters
 
 kplot = plt.axes(projection='3d')
-xline = np.linspace(0, 15, 1000)
-yline = np.linspace(0, 15, 1000)
-zline = np.linspace(0, 15, 1000)
 # Data for three-dimensional scattered points
 kplot.scatter3D(cluster1["family-income"], cluster1["age"], cluster1["residency-typeNum"], c='red', label = 'Cluster 1')
 kplot.scatter3D(cluster2["family-income"], cluster2["age"], cluster2["residency-typeNum"], c='blue', label = 'Cluster 2')
@@ -110,7 +113,10 @@ kplot.scatter3D(cluster4["family-income"], cluster4["age"], cluster4["residency-
 kplot.scatter3D(cluster5["family-income"], cluster5["age"], cluster5["residency-typeNum"], c='orange', label = 'Cluster 5')
 kplot.scatter3D(k_means_optimum.cluster_centers_[:,0], k_means_optimum.cluster_centers_[:,1], k_means_optimum.cluster_centers_[:,2] , color = 'indigo', s = 200)
 plt.legend()
-plt.title("Kmeans")
+plt.xlabel("Family Income")
+plt.ylabel("Age")
+kplot.set_zlabel("Residency Type")
+plt.title("Visualization of Clusters")
 plt.show()
 
 #samples from each cluster
