@@ -23,7 +23,7 @@ Name: reason, dtype: object
 16         104518       SubUrban   28
 17         102203          Urban   36
 CLUSTER 2
-19    "Foods from grocery-marts are filled with pesticides and other unwanted/unknown materials. When I grow my plants this way, its doesn’t have any pesticies and I know exactly what I am getting"
+19    "Foods from grocery-marts are filled with pesticides and other unwanted/unknown materials. When I grow my plants this way, its doesnâ€™t have any pesticies and I know exactly what I am getting"
 20                                                                                                                                                                                                NaN
 24                                                                                                                                                                                                NaN
 26                                                                                                                                                                                                NaN
@@ -98,4 +98,4 @@ Time efficiency: Advertise from a time perspective. Showcase busy individuals wh
 With this, you can focus certain targeted ads towards users of specified ages, incomes, and residency types such that it will help to increase engagement and revenues.
 
 
-*Note this is 100% of the full code, this was a sample of what I developed for a coorporation. Some aspects were left out due to confidentiality agreements. This serves as an sample of what was done. 
+*Note this is 100% of the full code, this was a sample of what I developed for a corporation. Some aspects were left out due to confidentiality agreements. This serves as an sample of what was done. 
